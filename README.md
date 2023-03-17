@@ -143,13 +143,14 @@ function Question() {
 
 ```jsx
 // NEW IMPORT STYLE
+// Changing the size of the icons
 import { FaBeer } from "react-icons/fa";
 
 function Question() {
   return (
     <h3>
       {" "}
-      Lets go for a <FaBeer />?{" "}
+      Lets go for a <FaBeer  size={20}/>?{" "}
     </h3>
   );
 }
